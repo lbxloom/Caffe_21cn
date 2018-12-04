@@ -1,0 +1,14 @@
+net: "models/captcha/train_val.prototxt"
+test_iter: 187 #596 #´óÓÚ11914/batchsize(20)¼´¿É
+test_interval: 1000 #2000
+base_lr: 0.01
+lr_policy: "step"
+gamma: 0.1
+stepsize: 3000 #8000 
+display: 10
+max_iter: 15000 #40000
+momentum: 0.9
+weight_decay: 0.0005
+snapshot: 3000 #6000
+snapshot_prefix: "models/captcha"
+solver_mode: GPU

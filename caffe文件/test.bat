@@ -1,0 +1,2 @@
+.\build\examples\cpp_classification\Release\classification.exe .\models\captcha\deploy.prototxt .\models\captcha\captcha_iter_15000.caffemodel .\examples\cpp_classification\imagenet_mean.binaryproto .\examples\cpp_classification\labels.txt .\1.png
+pause
